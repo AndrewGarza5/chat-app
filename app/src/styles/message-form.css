@@ -1,0 +1,18 @@
+.message-form-inline-text{
+    /* background-color: rgb(161, 161, 159); */
+    font-size: 18px;
+}
+
+.message-form-inline-emote{
+    cursor: pointer;
+    background-color: aqua;
+    padding: 2px;
+}
+
+.message-form-inline-emote-img{
+    position: relative;
+    /* display: block; */
+    display: inline;
+    height: 26px;
+    vertical-align: middle;
+}

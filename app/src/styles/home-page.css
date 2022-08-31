@@ -1,0 +1,75 @@
+
+.home-page-wrapper {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.enter-name{
+  width: 350px;
+  height: 50px;
+
+  background-color: antiquewhite;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.enter-chat-room{
+  width: 350px;
+  height: 50px;
+
+  background-color: antiquewhite;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.join-chat{
+  width: 350px;
+  height: 50px;
+
+  background-color: rgb(216, 20, 20);
+
+  color: black;
+  text-align: center;
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.your-id{
+  width: auto;
+  height: auto;
+
+  background-color: rgb(255, 255, 255);
+
+  font-size: 18px;
+  padding: 10px;
+}
+
+.introduction{
+
+}
+
+.inputs-wrapper{
+
+}
+
+.phone-wrapper{
+
+}
+
+.snapchat-wrapper{
+
+}
+
+.instagram-wrapper{
+  
+}

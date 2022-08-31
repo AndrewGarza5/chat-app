@@ -1,0 +1,161 @@
+.chat-box-container{
+    width: 350px;
+    height: 450px;
+
+    background-color: rgb(18, 17, 17);
+    border: solid rgb(61, 59, 59) 3px;
+}
+
+.chat-box-name{
+    width: 100%;
+    height: 10%;
+
+    background-color: black;
+
+}
+
+.chat-box-feed-container{
+    width: 100%;
+    height: 75%;
+
+}
+
+.chat-box-feed{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    overflow-y: auto;
+}
+
+.chat-box-message{
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 8px;
+
+    color: white;
+
+    text-align: left;
+    /* vertical-align: baseline; */
+}
+
+.chat-box-message:hover{
+
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 8px;
+
+    color: white;
+
+    text-align: left;
+    /* vertical-align: baseline; */
+
+    background-color: black;
+}
+
+.chat-box-message-username{
+    position: relative;
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
+.chat-box-emote{
+    position: relative;
+    /* display: block; */
+    display: inline;
+    height: 26px;
+    vertical-align: top;
+
+}
+
+.chat-box-message-content{
+    position: relative;
+    display: inline;
+
+    font-size: 18px;
+    vertical-align: middle;
+
+}
+
+
+.message-form-container{
+    width: 350px;
+    height: 15%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: black;
+
+}
+
+.message-form-input{
+    width: 300px;
+    height: 100%;
+
+    border: 0px;
+    padding: 0px;
+
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+
+    overflow: auto;
+    text-align: left;
+    background-color: aliceblue;
+
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+
+    cursor: text;
+}
+
+.hmm{
+    width: 100%;
+    height: 100%;
+
+    background-color: #555;
+}
+
+.message-form-input[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #555; 
+}
+
+.message-form-submit-button{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+
+    border: none;
+
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tetsy{
+    min-width: 100%;
+    height: 50%;
+
+    background-color: #555;
+}
+
+.tet{
+    min-width: 100%;
+    height: 50%;
+
+    background-color: rgb(181, 75, 75);
+}
